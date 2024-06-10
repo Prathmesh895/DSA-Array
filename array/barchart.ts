@@ -31,3 +31,5 @@ function PrintBarChart(arr:number[]):void{
 }
 
 PrintBarChart(arr)
+
+// console.log(arr.length);

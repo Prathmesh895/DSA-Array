@@ -1,0 +1,14 @@
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+function ReverseArr(arr) {
+    var r = arr.length - 1;
+    var l = 0;
+    while (l < r) {
+        var temp = arr[l];
+        arr[l] = arr[r];
+        arr[r] = temp;
+        l++;
+        r--;
+    }
+    return arr;
+}
+console.log(ReverseArr(arr));
