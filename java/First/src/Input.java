@@ -7,7 +7,8 @@ public class Input {
         // String name = sc.nextLine(); 
         // System.out.println(name);
 
-       Scanner sc = new Scanner(System.in);
+       @SuppressWarnings("resource")
+    Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
         int sum = a + b;
